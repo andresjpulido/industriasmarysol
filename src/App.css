@@ -1,0 +1,126 @@
+h1 {
+  color:#57AACE;
+}
+
+h2 {
+  text-align: center;
+  color:#57AACE;
+}
+
+h5 {
+  color:#57AACE;
+  color: white;
+}
+
+.App{
+  background-color: white; 
+}
+
+.footer {
+  background-color: #434547;
+  color: #B6B6B6;
+  font-size: .7rem;
+}
+
+hr.footer {
+  border: .5px solid #B6B6B6;
+}
+  
+.product {
+  width: 50%;
+  
+}
+
+.active-item{
+  background-color: #57AACE;
+}
+
+.btn-language {
+  padding: 0px !important;
+  color:  #B6B6B6;
+}
+
+.btn-language-active {
+  color:  white;
+}
+
+.card-text {
+  color:#434547;
+}
+
+.card-header {
+  background-color: #57AACE !important;
+}
+
+.card-group{
+  width: 70%;
+}
+
+.card-title-solid{
+  color: white;
+}
+
+.card-body-solid{
+  background-color: #0049A7;
+  background-color: #57AACE;
+}
+
+.list-group .list-group-item{
+  background-color: #57AACE;
+  color:#57AACE;
+  color: white;
+}
+
+.col-top{
+  padding-top: 15px;
+}
+
+.col-botton{
+  padding-bottom: 15px;
+}
+
+.carousel {
+  margin: auto;
+  width: 60%;
+}
+
+.home {
+  margin: 50px;
+} 
+
+.icons {
+  color:#57A9CE;
+  font-size: .9rem;
+  padding: 10px;
+  background-color:#494B4E;
+}
+
+.icons-products {
+  color:white;
+  font-size: 2.9rem;
+  background-color:#57A9CE;
+}
+
+.navbar { 
+  padding: 0px !important;
+  font-weight: bolder;
+  font-size: .8rem;
+}
+
+ .nav-link {
+  color: white !important;
+}
+
+.page {
+  background-color:  #F8F8F8;
+}
+
+.phone {
+  color:#57A9CE;
+  font-size: 1.3rem;
+}
+
+.sub {
+  font-size: 1rem;
+  color: #434547;
+}

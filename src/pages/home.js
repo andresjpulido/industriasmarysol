@@ -42,29 +42,29 @@ class MyComponent extends Component {
             <div class="carousel-item active">
               <img src="/img/slider/van1.webp" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3></h3>
+                <p></p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="/img/slider/publicidad.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3></h3>
+                <p></p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="/img/slider/puntoVenta.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3></h3>
+                <p></p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="/img/slider/marca.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3></h3>
+                <p></p>
               </div>
             </div>
           </div>
@@ -79,13 +79,15 @@ class MyComponent extends Component {
         </div>
 
         <br />
-        
+
         <div class="card-group mx-auto">
           <div class="card">
             <div class="card-header">
               <div class="row">
-                <div class="col-4"><i class="fas fa-home mx-auto icons-products"></i></div>
-                <div class="col-8"><h5 class="card-title">Línea Institucional</h5></div>
+              <i class="fas fa-building mx-auto icons-products"></i>
+              </div>
+              <div class="row">
+                <h4 class="card-title">Línea Institucional</h4>
               </div>
             </div>
             <div class="card-body-solid">
@@ -111,8 +113,10 @@ class MyComponent extends Component {
           <div class="card">
             <div class="card-header">
               <div class="row">
-                <div class="col-4"><i class="fas fa-home mx-auto icons-products"></i></div>
-                <div class="col-8"><h5 class="card-title">Línea <br />Hogar</h5></div>
+                <i class="fas fa-home mx-auto icons-products"></i>
+              </div>
+              <div className="row">
+                <h4 class="card-title">Línea Hogar</h4>
               </div>
             </div>
             <div class="card-body-solid">
@@ -134,10 +138,12 @@ class MyComponent extends Component {
             </div>
           </div>
           <div class="card">
-          <div class="card-header">
+            <div class="card-header">
               <div class="row">
-                <div class="col-4"><i class="fas fa-car mx-auto icons-products"></i></div>
-                <div class="col-8"><h5 class="card-title">Línea Automotriz</h5></div>
+                <i class="fas fa-car mx-auto icons-products"></i>
+              </div>
+              <div class="row">
+                <h4 class="card-title">Línea Automotriz</h4>
               </div>
             </div>
             <div class="card-body-solid">
@@ -147,7 +153,7 @@ class MyComponent extends Component {
                 <li class="list-group-item"> Abrillantador de llanta </li>
                 <li class="list-group-item"> Desengrasante Plus </li>
                 <li class="list-group-item"> Grafito liquido </li>
-                
+
               </ul>
             </div>
             <div class="card-footer">

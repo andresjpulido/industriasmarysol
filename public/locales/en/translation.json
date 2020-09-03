@@ -3,5 +3,19 @@
     "home":"HOME",
     "products":"PRODUCTS",
     "about":"ABOUT",
-    "contact":"CONTACT"
+    "contact":"CONTACT",
+
+    "email":"Email",
+    "contact-title":"Contact",
+
+    "visitFacebook":"Visitanos en Facebook",
+    "visitTwiter":"",
+    "schedule":"Mon-Sat: 07:00AM - 05:00PM",
+    "send":"Send message",
+    "name":"Name",
+    "message":"Message",
+    "location":"Location",
+    "productlist":"Nuestros productos"
+
+
 }

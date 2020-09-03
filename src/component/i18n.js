@@ -5,7 +5,7 @@ i18n
   .use(Backend)  
   .use(LanguageDetector)  
   .init({  
-    fallbackLng: "en",
+    fallbackLng: "es",
       
     debug: true,  
     react: {  

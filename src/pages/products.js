@@ -27,6 +27,7 @@ class Products extends Component {
         return (
             <div className="container page mt-0 mb-0">
                  
+                 <h2 className="item">{I18nInstance.t("productlist")}</h2>
 
                     <div class="row">
                         <div class="col-sm-6 col-top">
@@ -37,7 +38,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Acido sacasarro</h5>
+                                            <h3 class="card-title card-text">Acido sacasarro</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -53,7 +54,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Brillo silicona</h5>
+                                            <h3 class="card-title card-text">Brillo silicona</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -69,7 +70,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Cloro</h5>
+                                            <h3 class="card-title card-text">Cloro</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -85,7 +86,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Desinfectante</h5>
+                                            <h3 class="card-title card-text">Desinfectante</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -101,7 +102,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Detergente</h5>
+                                            <h3 class="card-title card-text">Detergente</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -117,7 +118,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Gel y jabon</h5>
+                                            <h3 class="card-title card-text">Gel y jabon</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -134,7 +135,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Shampoo desengrasante</h5>
+                                            <h3 class="card-title card-text">Shampoo desengrasante</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>
@@ -150,7 +151,7 @@ class Products extends Component {
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Suavizante</h5>
+                                            <h3 class="card-title card-text">Suavizante</h3>
                                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                         </div>

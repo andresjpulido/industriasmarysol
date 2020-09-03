@@ -2,5 +2,17 @@
     "home":"INICIO",
     "products":"PRODUCTOS",
     "about":"EMPRESA",
-    "contact":"CONTACTO"
+    "contact":"CONTACTO",
+    
+    "email":"Correo electronico",
+    "contact-title":"Contactenos",
+
+    "visitFacebook":"Visitanos en Facebook",
+    "schedule":"Lun-Sab: 07:00AM - 05:00PM",
+    "send":"Enviar mensaje",
+    "name":"Nombre",
+    "message":"Mensaje",
+    "location":"Ubicacion",
+    "productlist":"Nuestros productos" 
+
 }

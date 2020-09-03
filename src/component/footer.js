@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
+import I18nInstance from '../component/i18n';
 
 class Footer extends Component {
 
@@ -36,32 +38,18 @@ class Footer extends Component {
 
                         <div class="col">
                             <div class="row">
-                                <div class="col-sm-2 col-form-label"><i class="fab fa-facebook icons"></i></div>
-                                <div class="col-sm-10 col-form-label"><span> Visitanos en Facebook</span></div>
+                                <div class="col-sm-2 col-form-label"><a href="https://web.facebook.com/Industrias-Mar-Y-Sol-SA-165692880302017/" target="_blank"><i class="fab fa-facebook icons"></i></a></div>
+                                <div class="col-sm-10 col-form-label"><span> {I18nInstance.t("visitFacebook")}</span></div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="row">
-                                <div class="col-sm-2 col-form-label"><i class="fab fa-twitter-square icons"></i></div>
-                                <div class="col-sm-10 col-form-label"><span> Siguenos en Twiter</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row  col-botton">
+
                         <div class="col">
                             <div class="row">
                                 <div class="col-sm-2 col-form-label"><i class="fas fa-clock icons"></i></div>
-                                <div class="col-sm-10 col-form-label"><span> Lun-Sab: 07:00AM - 05:00PM</span></div>
+                                <div class="col-sm-10 col-form-label"><span> {I18nInstance.t("schedule")}</span></div>
                             </div>
-                        </div>
-                        <div class="col">
-
-                        </div>
-                        <div class="col">
-
-                        </div>
+                        </div> 
                     </div>
-
 
                     <hr className="footer"></hr>
                     <span class="text-left col-top"> &copy; 2020 Industrias Mar y sol. Desarrollado por AP.</span>
@@ -72,5 +60,5 @@ class Footer extends Component {
         );
     }
 }
-
-export default Footer;
+ 
+export default withTranslation()(Footer);

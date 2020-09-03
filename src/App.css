@@ -2,14 +2,38 @@ h1 {
   color:#57AACE;
 }
 
-h2 {
+h2.item {
   text-align: center;
-  color:#57AACE;
+  color: #434547;
+  padding-top: 20px;
+  font-size: 1.8rem;
 }
 
-h5 {
+h3 {
   color:#57AACE;
   color: white;
+}
+
+h3.card-text{
+  color: #434547;
+}
+
+h4{
+  color: white;
+}
+
+h4.title{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #434547;
+}
+
+hr.footer {
+  border: .5px solid #B6B6B6;
+}
+
+hr.section {
+  border-top: 1px solid red;
 }
 
 .App{
@@ -21,11 +45,7 @@ h5 {
   color: #B6B6B6;
   font-size: .7rem;
 }
-
-hr.footer {
-  border: .5px solid #B6B6B6;
-}
-  
+ 
 .product {
   width: 50%;
   
@@ -101,14 +121,36 @@ hr.footer {
   background-color:#57A9CE;
 }
 
+.icons-items {
+  color:white;
+  font-size: 1.5rem;
+  background-color:#57A9CE;
+  padding: 10px;
+  text-align: center;
+}
+ 
+.form-contact { 
+  width: 90%;
+  position: relative;
+  margin: auto;
+  padding: 20px 0px;
+
+}
+
+.form-label{
+  color: #434547;
+  color: white;
+}
+
 .navbar { 
   padding: 0px !important;
   font-weight: bolder;
   font-size: .8rem;
 }
 
- .nav-link {
+.nav-link {
   color: white !important;
+  padding-left: 10px !important;
 }
 
 .page {
@@ -120,7 +162,20 @@ hr.footer {
   font-size: 1.3rem;
 }
 
+.solid{
+  background-color: #57A9CE;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  border-style: solid;
+}
+
 .sub {
   font-size: 1rem;
   color: #434547;
+}
+
+.w{
+  text-align: right;
 }

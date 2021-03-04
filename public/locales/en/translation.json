@@ -15,7 +15,12 @@
     "name":"Name",
     "message":"Message",
     "location":"Location",
-    "productlist":"Nuestros productos"
+    "productlist":"Nuestros productos",
 
+    "mission":"Mission",
+    "vision":"Vision",
+    "mission-p1":"Industrias Mar y Sol S.A. manufactures cleaning products of excellent quality and competitive prices that benefit the health and well-being of our consumers. To achieve this, we use first-class raw material used in a production process that follows strict quality control by our experienced team of employees.",
+    "vision-p1":"Our challenge is to consolidate ourselves as the trusted brand of Ecuadorians, which is why we work so that all homes and companies in the country have at least one of our products in their provision of toiletries.",
+    "vision-p2":"To be the leading company in the market, we will distinguish ourselves by our innovation and adaptation to the great challenges of the market in the region."
 
 }

@@ -84,7 +84,6 @@ class Nav extends Component {
                             <div className="btn-group float-right">
                                 <a href="#" class={this.state.lng === 'es' ? "px-1 btn-language-active" : "btn-language px-1"} onClick={this.onClickLan.bind(this, 'es')}>ES</a>
                                 <a href="#" class={this.state.lng === 'en' ? "px-1 btn-language-active" : "btn-language px-1"} onClick={this.onClickLan.bind(this, 'en')}>EN</a>
-                                <a href="#" class={this.state.lng === 'fr' ? "px-1 btn-language-active" : "btn-language px-1"} onClick={this.onClickLan.bind(this, 'fr')}>FR</a>
                             </div>
                         </div>
 

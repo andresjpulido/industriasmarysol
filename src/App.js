@@ -10,7 +10,7 @@ import Header from './component/header';
 import Footer from './component/footer';
 import Nav from './component/nav';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {

@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { withTranslation } from 'react-i18next';
 
 import I18nInstance from '../component/i18n';
-
+import './home.scss'
 
 class MyComponent extends Component {
 
@@ -29,142 +29,69 @@ class MyComponent extends Component {
 
     return (
 
-      <div className="home page mt-0 mb-0">
+      <section id="home" >
+<div className="page">
+        <div className="list">
 
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/img/slider/van1.webp" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h3></h3>
-                <p></p>
-              </div>
+          <div className="list-group list-group-institutional">
+            <div className="list-group-header">
+              <i class="fas fa-building icons-products"></i> <span className="list-group-title">Línea Institucional</span>
             </div>
-            <div class="carousel-item">
-              <img src="/img/slider/publicidad.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h3></h3>
-                <p></p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="/img/slider/puntoVenta.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h3></h3>
-                <p></p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="/img/slider/marca.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h3></h3>
-                <p></p>
-              </div>
-            </div>
+            <ul>
+              <li class="list-group-item">Desinfectantes </li>
+              <li class="list-group-item">Suavizantes </li>
+              <li class="list-group-item">Detergente Líquido </li>
+              <li class="list-group-item">Jabon liquido manos </li>
+              <li class="list-group-item">Gel desinfectante </li>
+              <li class="list-group-item">Limpia vidrios </li>
+              <li class="list-group-item">Ácido Saca Sarro </li>
+              <li class="list-group-item">Ácido Nítrico </li>
+              <li class="list-group-item">Peróxido </li>
+              <li class="list-group-item">Cloro Gel </li>
+              <li class="list-group-item">Desengrasante Doméstico </li>
+              <li class="list-group-item">Desengrasante Industrial </li>
+            </ul>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
+          <div className="list-group list-group-home">
+            <div className="list-group-header">
+              <i class="fas fa-home icons-products"></i> <span className="list-group-title">Línea Hogar</span>
+            </div>
+            <ul>
+              <li class="list-group-item">Cloro </li>
+              <li class="list-group-item">Desinfectantes</li>
+              <li class="list-group-item">Suavizantes</li>
+              <li class="list-group-item">Detergente Líquido</li>
+              <li class="list-group-item">Limpia vidrios</li>
+              <li class="list-group-item">Ácido Saca Sarro</li>
+              <li class="list-group-item">Ácido Nítrico</li>
+              <li class="list-group-item">Peróxido</li>
+              <li class="list-group-item">Cloro Gel</li>
+              <li class="list-group-item">Desengrasante Doméstico</li>
+            </ul>
+          </div>
+
+          <div className="list-group list-group-car">
+            <div className="list-group-header">
+              <i class="fas fa-car icons-products"></i> <span className="list-group-title">Línea Automotriz</span>
+            </div>
+            <ul>
+              <li class="list-group-item"> Shampoo para autos </li>
+              <li class="list-group-item"> Abrillantador de Paneles</li>
+              <li class="list-group-item"> Abrillantador de llanta </li>
+              <li class="list-group-item"> Desengrasante Plus </li>
+              <li class="list-group-item"> Grafito liquido </li>
+            </ul>
+          </div>
         </div>
-
-        <br />
-
-        <div class="card-group mx-auto">
-          <div class="card">
-            <div class="card-header">
-              <div class="row">
-              <i class="fas fa-building mx-auto icons-products"></i>
-              </div>
-              <div class="row">
-                <h4 class="card-title">Línea Institucional</h4>
-              </div>
-            </div>
-            <div class="card-body-solid">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Desinfectantes </li>
-                <li class="list-group-item">Suavizantes </li>
-                <li class="list-group-item">Detergente Líquido </li>
-                <li class="list-group-item">Jabon liquido manos </li>
-                <li class="list-group-item">Gel desinfectante </li>
-                <li class="list-group-item">Limpia vidrios </li>
-                <li class="list-group-item">Ácido Saca Sarro </li>
-                <li class="list-group-item">Ácido Nítrico </li>
-                <li class="list-group-item">Peróxido </li>
-                <li class="list-group-item">Cloro Gel </li>
-                <li class="list-group-item">Desengrasante Doméstico </li>
-                <li class="list-group-item">Desengrasante Industrial </li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">En tamaño Galón, Caneca y Tambo.</small>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <div class="row">
-                <i class="fas fa-home mx-auto icons-products"></i>
-              </div>
-              <div className="row">
-                <h4 class="card-title">Línea Hogar</h4>
-              </div>
-            </div>
-            <div class="card-body-solid">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cloro </li>
-                <li class="list-group-item">Desinfectantes</li>
-                <li class="list-group-item">Suavizantes</li>
-                <li class="list-group-item">Detergente Líquido</li>
-                <li class="list-group-item">Limpia vidrios</li>
-                <li class="list-group-item">Ácido Saca Sarro</li>
-                <li class="list-group-item">Ácido Nítrico</li>
-                <li class="list-group-item">Peróxido</li>
-                <li class="list-group-item">Cloro Gel</li>
-                <li class="list-group-item">Desengrasante Doméstico</li>
-              </ul>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">En tamaños sachet, frasco de 100ml, frasco de 280ml, frasco de 500ml y frasco de 1000),galon de 4000.</small>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <div class="row">
-                <i class="fas fa-car mx-auto icons-products"></i>
-              </div>
-              <div class="row">
-                <h4 class="card-title">Línea Automotriz</h4>
-              </div>
-            </div>
-            <div class="card-body-solid">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"> Shampoo para autos </li>
-                <li class="list-group-item"> Abrillantador de Paneles</li>
-                <li class="list-group-item"> Abrillantador de llanta </li>
-                <li class="list-group-item"> Desengrasante Plus </li>
-                <li class="list-group-item"> Grafito liquido </li>
-
-              </ul>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-
         </div>
-        <br />
+        <div className="team" />
 
-      </div>
+        <div className="environment " />
+
+
+       
+      </section>
 
     );
   }

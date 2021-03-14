@@ -1,0 +1,153 @@
+@import "../../styles/variables.scss";
+
+nav {
+    background-color: $bg-terteary;
+    display: flex;
+    justify-content: space-between;    
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    color: $text-primary;
+    display: inline-block;
+    font-size: .8rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: bolder;
+}
+
+nav > ul  {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+nav > ul > li > a {
+    color: $text-primary;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.active-item{
+    background-color: #57AACE;   
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.menu-mobile button{
+    background-color: $bg-terteary;
+    border: 0px;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+    nav > ul:last-of-type {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-mobile-title {        
+        color: $text-primary;
+        display: inline-block;
+        font-weight: bolder;
+        margin: auto;
+    }
+
+    .menu-mobile-icon {
+        color: red;
+        border: 1px rgb(230,230,230) solid;
+        padding: 10px;       
+        display: inline-block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-child {
+        display: none;    
+    }
+    
+    .dropdown-child li {
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
+
+    nav > ul  {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+     
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+     
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+     
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+     
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+     
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+     
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+     
+}

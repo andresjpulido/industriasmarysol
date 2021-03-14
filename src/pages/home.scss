@@ -1,0 +1,143 @@
+@import "../styles/variables.scss";
+
+.team {
+    background-image: url('/img/team.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 100%;
+}  
+
+.environment  {
+    background-image: url('/img/environment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 100%;
+}
+
+.list {     
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-group {
+    flex: 1 1 30%;
+    margin: 1rem;
+    background-image: url('/img/team.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.list-group-institutional  {
+    background-image: url('/img/institutional.jpg');
+}
+
+.list-group-home {
+    background-image: url('/img/home.jpg');
+}
+
+.list-group-car {
+    background-image: url('/img/car.jpg');
+}
+
+.list-group-header {
+    margin: auto;
+    text-align: center;
+    padding: 1rem; 
+}
+
+.list-group-title {
+    color: $text-primary;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.list-group-item {  
+    color: $text-primary;
+    padding: .8rem;
+    border-bottom: 1px $text-primary solid;
+    font-size: .8rem;
+}
+
+ 
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+     
+    .team {   
+        background-size: cover; 
+        background-repeat: no-repeat;
+        height: 15rem; 
+        width: 100%;
+    } 
+
+    .environment {   
+        background-size: cover; 
+        background-repeat: no-repeat;
+        height: 15rem; 
+        width: 100%;
+    } 
+
+    .list-group {
+        flex: 1 1 100%;
+        margin: 0rem;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+     
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+     
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+     
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+     
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+     
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+     
+}

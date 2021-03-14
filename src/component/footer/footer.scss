@@ -1,0 +1,93 @@
+@import "../../styles/variables.scss";
+
+footer {
+    background-color: $secundary;
+    color: $text-secundary;
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer > ul > li {
+    flex: 1 1 20rem;
+    margin: .5rem; 
+}
+
+footer .icons{
+    color: $primary;
+    background-color:  $secundary;
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+     
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+     
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+     
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+     
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+     
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+     
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+     
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+     
+}

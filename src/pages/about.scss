@@ -1,0 +1,15 @@
+@import "../styles/variables.scss";
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    flex: 1 1 47%;
+    margin: 1rem;
+}
+
+.box-icon{
+    text-align: center;
+}

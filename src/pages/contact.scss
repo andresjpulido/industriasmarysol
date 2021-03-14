@@ -1,0 +1,44 @@
+@import "../styles/variables.scss";
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact > article {
+    flex: 1 1 45%;
+    margin: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-item {
+    flex: 1 1 45%;
+    margin: .75rem;
+    font-weight: bolder;
+}
+
+.form-control {
+    border: 1px $primary solid;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.btn-primary {
+    background-color: $primary;
+    border: 1px $primary solid;
+    border-radius: .3rem;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem; 
+}
+
+.m0{
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -1,39 +1,38 @@
-import React, { Component } from 'react';
-import { withTranslation } from 'react-i18next';
-import I18nInstance from '../component/i18n';
+import React from 'react'
+import { useTranslation } from 'react-i18next';
+import './about.scss'
 
-class About extends Component {
-    render() {
-        return (
-            <div className="page container">
+export default function About() {
 
-                <div className="row">
-                    <div className="col-md-6 mt-5 mb-5 px-5">
-                        <div className="row">
-                            <i class="fas fa-sitemap mx-auto icons-items"></i>
-                        </div>
-                        <h2 className="item">{I18nInstance.t("mission")}</h2>
-                        <div className="row">
-                        <p>{I18nInstance.t("mission-p1")}</p>
-                        </div>
+    const { t, i18n } = useTranslation();
+
+    return (
+        <section className="page">
+
+            <div className="boxes">
+
+                <div className="box">
+                    <div className="box-icon">
+                        <i class="fas fa-sitemap icons-items"></i>
                     </div>
-
-                    <div className="col-md-6 mt-5 mb-5 px-5 px-5">
-                        <div className="row">
-                            <i class="fas fa-tasks mx-auto icons-items"></i>
-                        </div>
-                        <h2 className="item">{I18nInstance.t("vision")}</h2>
-                        <div className="row">
-                            <p>{I18nInstance.t("vision-p1")}</p>
-                            <p>{I18nInstance.t("vision-p2")}</p>
-                        </div>
+                    <h2>{t("mission")}</h2>
+                    <div className="row">
+                        <p>{t("mission-p1")}</p>
                     </div>
                 </div>
 
-            </div >
-        )
-    }
+                <div className="box">
+                    <div className="box-icon">
+                        <i class="fas fa-tasks mx-auto icons-items"></i>
+                    </div>
+                    <h2>{t("vision")}</h2>
+                    <div className="row">
+                        <p>{t("vision-p1")}</p>
+                        <p>{t("vision-p2")}</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    )
 }
-
-
-export default withTranslation()(About);

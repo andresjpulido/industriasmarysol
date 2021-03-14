@@ -6,7 +6,18 @@
     background-repeat: no-repeat;
     height: 10rem;
     width: 100%;
+    position: relative;
 }  
+
+.team-text {
+    color: blanchedalmond;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+}
 
 .environment  {
     background-image: url('/img/environment.jpg');
@@ -14,6 +25,19 @@
     background-repeat: no-repeat;
     height: 10rem;
     width: 100%;
+    position: relative;
+}
+
+.team-environment {
+    color: blanchedalmond;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    text-align: right;
 }
 
 .list {     

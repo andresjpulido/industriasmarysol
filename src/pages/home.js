@@ -30,67 +30,72 @@ class MyComponent extends Component {
     return (
 
       <section id="home" >
-<div className="page">
-        <div className="list">
+        <div className="page">
+          <div className="list">
 
-          <div className="list-group list-group-institutional">
-            <div className="list-group-header">
-              <i class="fas fa-building icons-products"></i> <span className="list-group-title">Línea Institucional</span>
+            <div className="list-group list-group-institutional">
+              <div className="list-group-header">
+                <i class="fas fa-building icons-products"></i> <span className="list-group-title">Línea Institucional</span>
+              </div>
+              <ul>
+                <li class="list-group-item">Desinfectantes </li>
+                <li class="list-group-item">Suavizantes </li>
+                <li class="list-group-item">Detergente Líquido </li>
+                <li class="list-group-item">Jabon liquido manos </li>
+                <li class="list-group-item">Gel desinfectante </li>
+                <li class="list-group-item">Limpia vidrios </li>
+                <li class="list-group-item">Ácido Saca Sarro </li>
+                <li class="list-group-item">Ácido Nítrico </li>
+                <li class="list-group-item">Peróxido </li>
+                <li class="list-group-item">Cloro Gel </li>
+                <li class="list-group-item">Desengrasante Doméstico </li>
+                <li class="list-group-item">Desengrasante Industrial </li>
+              </ul>
             </div>
-            <ul>
-              <li class="list-group-item">Desinfectantes </li>
-              <li class="list-group-item">Suavizantes </li>
-              <li class="list-group-item">Detergente Líquido </li>
-              <li class="list-group-item">Jabon liquido manos </li>
-              <li class="list-group-item">Gel desinfectante </li>
-              <li class="list-group-item">Limpia vidrios </li>
-              <li class="list-group-item">Ácido Saca Sarro </li>
-              <li class="list-group-item">Ácido Nítrico </li>
-              <li class="list-group-item">Peróxido </li>
-              <li class="list-group-item">Cloro Gel </li>
-              <li class="list-group-item">Desengrasante Doméstico </li>
-              <li class="list-group-item">Desengrasante Industrial </li>
-            </ul>
-          </div>
 
-          <div className="list-group list-group-home">
-            <div className="list-group-header">
-              <i class="fas fa-home icons-products"></i> <span className="list-group-title">Línea Hogar</span>
+            <div className="list-group list-group-home">
+              <div className="list-group-header">
+                <i class="fas fa-home icons-products"></i> <span className="list-group-title">Línea Hogar</span>
+              </div>
+              <ul>
+                <li class="list-group-item">Cloro </li>
+                <li class="list-group-item">Desinfectantes</li>
+                <li class="list-group-item">Suavizantes</li>
+                <li class="list-group-item">Detergente Líquido</li>
+                <li class="list-group-item">Limpia vidrios</li>
+                <li class="list-group-item">Ácido Saca Sarro</li>
+                <li class="list-group-item">Ácido Nítrico</li>
+                <li class="list-group-item">Peróxido</li>
+                <li class="list-group-item">Cloro Gel</li>
+                <li class="list-group-item">Desengrasante Doméstico</li>
+              </ul>
             </div>
-            <ul>
-              <li class="list-group-item">Cloro </li>
-              <li class="list-group-item">Desinfectantes</li>
-              <li class="list-group-item">Suavizantes</li>
-              <li class="list-group-item">Detergente Líquido</li>
-              <li class="list-group-item">Limpia vidrios</li>
-              <li class="list-group-item">Ácido Saca Sarro</li>
-              <li class="list-group-item">Ácido Nítrico</li>
-              <li class="list-group-item">Peróxido</li>
-              <li class="list-group-item">Cloro Gel</li>
-              <li class="list-group-item">Desengrasante Doméstico</li>
-            </ul>
-          </div>
 
-          <div className="list-group list-group-car">
-            <div className="list-group-header">
-              <i class="fas fa-car icons-products"></i> <span className="list-group-title">Línea Automotriz</span>
+            <div className="list-group list-group-car">
+              <div className="list-group-header">
+                <i class="fas fa-car icons-products"></i> <span className="list-group-title">Línea Automotriz</span>
+              </div>
+              <ul>
+                <li class="list-group-item"> Shampoo para autos </li>
+                <li class="list-group-item"> Abrillantador de Paneles</li>
+                <li class="list-group-item"> Abrillantador de llanta </li>
+                <li class="list-group-item"> Desengrasante Plus </li>
+                <li class="list-group-item"> Grafito liquido </li>
+              </ul>
             </div>
-            <ul>
-              <li class="list-group-item"> Shampoo para autos </li>
-              <li class="list-group-item"> Abrillantador de Paneles</li>
-              <li class="list-group-item"> Abrillantador de llanta </li>
-              <li class="list-group-item"> Desengrasante Plus </li>
-              <li class="list-group-item"> Grafito liquido </li>
-            </ul>
           </div>
         </div>
+        <div className="team">
+          <div className="team-text">Nuestro equipo </div>
         </div>
-        <div className="team" />
+        <div className="environment ">
+        <div className="team-environment">Estamos comprometidos con 
+el cuidado del medio 
+ambiente</div>
+        </div>
 
-        <div className="environment " />
 
 
-       
       </section>
 
     );

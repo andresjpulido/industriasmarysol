@@ -19,7 +19,11 @@
     "vision":"Vision",
     "mission-p1":"Industrias Mar y Sol S.A. fabrica productos de limpieza de excelente calidad y precios competitivos que benefician la salud y el bienestar de nuestros consumidores. Para lograr esto, utilizamos materia prima de de primera clase utilizada en un proceso de producción que sigue un estricto control de calidad por parte de nuestro experimentado equipo de empleados.",
     "vision-p1":"Nuestro reto es consolidarnos como la marca de confianza de los ecuatorianos por lo cual trabajamos para que que todos los hogares y empresas del pais cuenten con al menos uno de nuestros productos en su provision de elementos de aseo.",
-    "vision-p2":"Para ser la empresa lider en el mercado nos distinguiremos por nuestra innovacion y adaptacion a los grandes desafios del mercado en la region."
+    "vision-p2":"Para ser la empresa lider en el mercado nos distinguiremos por nuestra innovacion y adaptacion a los grandes desafios del mercado en la region.",
 
+    "enterprise-line":"Línea Institucional",
+    "home-line":"Línea Hogar",
+    "car-line":"Línea Automotriz"
+    
 
 }

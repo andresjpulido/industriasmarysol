@@ -25,12 +25,16 @@ nav > ul  {
     padding-right: 3rem;
 }
 
-nav > ul > li > a {
+nav > ul > li {
     color: $text-primary;
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: .9rem;
     padding-right: .9rem;
+}
+
+nav > ul > li:hover {
+    cursor:pointer
 }
 
 .active-item{
@@ -45,6 +49,13 @@ nav > ul > li > a {
     background-color: $bg-terteary;
     border: 0px;
 }
+
+
+ 
+
+
+
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -78,19 +89,30 @@ and (max-device-width : 767px) {
         position: relative;
         display: inline-block;
     }
-    
+ 
+    .dropdown-child-open {
+        display: block;    
+    }
+ 
+
     .dropdown-child {
-        display: none;    
+        display: none;   
+        position: absolute;
+        background-color: $bg-terteary;
+        width: 100%; 
     }
     
     .dropdown-child li {
         text-decoration: none;
         display: block;
+        border-bottom: $secundary .1rem solid;
     }
     
-    .dropdown:hover .dropdown-child {
+    .active{
         display: block;
+        z-index: 1;
     }
+
 
     nav > ul  {
         padding-left: 0rem;

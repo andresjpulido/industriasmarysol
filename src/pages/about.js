@@ -13,7 +13,7 @@ export default function About() {
 
                 <div className="box">
                     <div className="box-icon">
-                        <i class="fas fa-sitemap icons-items"></i>
+                        <i className="fas fa-sitemap icons-items"></i>
                     </div>
                     <h2>{t("mission")}</h2>
                     <div className="row">
@@ -23,7 +23,7 @@ export default function About() {
 
                 <div className="box">
                     <div className="box-icon">
-                        <i class="fas fa-tasks mx-auto icons-items"></i>
+                        <i className="fas fa-tasks mx-auto icons-items"></i>
                     </div>
                     <h2>{t("vision")}</h2>
                     <div className="row">

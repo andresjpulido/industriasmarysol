@@ -7,7 +7,7 @@ i18n
   .init({  
     fallbackLng: "es",
       
-    debug: true,  
+    debug: false,  
     react: {  
       bindI18n: "languageChanged",  
       bindI18nStore: "",  

@@ -28,8 +28,13 @@
     position: relative;
 }
 
+.icon-lines {
+    color:$primary;
+    font-size: 2.9rem;
+}
+
 .team-environment {
-    color: blanchedalmond;
+    color: $text-primary;
     position: absolute;
     top: 15%;
     left: 10%;
@@ -54,32 +59,61 @@
     width: 100%;
 }
 
-.list-group-institutional  {
+.group-wrap {
+    flex: 1 1 30%;
+    margin: 1rem;
+    position: relative;
+}
+
+ 
+.group-wrap-institutional:before  {
     background-image: url('/img/institutional.jpg');
+    opacity: .2;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+  width: 100%;
+  height: 100%
 }
 
-.list-group-home {
+.group-wrap-home:before {
     background-image: url('/img/home.jpg');
+    opacity: 0.2;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+  width: 100%;
+  height: 100%
 }
 
-.list-group-car {
+.group-wrap-car:before {
     background-image: url('/img/car.jpg');
+    opacity: 0.2;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+  width: 100%;
+  height: 100%
 }
 
 .list-group-header {
     margin: auto;
     text-align: center;
     padding: 1rem; 
+    
 }
 
 .list-group-title {
-    color: $text-primary;
+    color: $primary;
     font-size: 1.5rem;
     font-weight: bolder;
 }
 
 .list-group-item {  
-    color: $text-primary;
+    color: $primary;
     padding: .8rem;
     border-bottom: 1px $text-primary solid;
     font-size: .8rem;
@@ -106,7 +140,7 @@ and (max-device-width : 480px) {
         width: 100%;
     } 
 
-    .list-group {
+    .group-wrap {
         flex: 1 1 100%;
         margin: 0rem;
     }

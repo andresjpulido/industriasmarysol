@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useTranslation } from 'react-i18next';
 import './home.scss'
 
@@ -71,12 +71,10 @@ export default function Home() {
       </div>
 
       <div className="team">
-        <div className="team-text">Nuestro equipo </div>
+        <div className="team-text">{t("our-team")}</div>
       </div>
       <div className="environment ">
-        <div className="team-environment">Estamos comprometidos con
-        el cuidado del medio
-ambiente</div>
+        <div className="team-environment">{t("nature")}</div>
       </div>
 
 

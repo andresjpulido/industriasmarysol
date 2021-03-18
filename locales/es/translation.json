@@ -23,7 +23,10 @@
 
     "enterprise-line":"Línea Institucional",
     "home-line":"Línea Hogar",
-    "car-line":"Línea Automotriz"
+    "car-line":"Línea Automotriz",
+
+    "our-team":"Nuestro equipo esta comprometido con la excelencia", 
+    "nature":"Estamos comprometidos con el medio ambiente"
     
 
 }

@@ -24,15 +24,22 @@ footer > hr {
 }
 
 footer > ul > li {
-    flex: 1 1 20rem;
+    flex: 1 1 30rem;
     margin: .5rem; 
+    display: flex;
+    align-items: center;
 }
 
-footer .icons{
+footer .footer-icons{
     color: $primary;
     background-color:  $secundary;
+    font-size: 2rem;
+     
 }
 
+footer .footer-text {  
+    padding-left: 1rem;
+}
 
 
 

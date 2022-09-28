@@ -1,4 +1,4 @@
-@import "./styles/variables.scss";
+@import "./styles/variables.css";
 
 h2, ul, li, section {
   padding: 0px;
@@ -52,7 +52,7 @@ h1 {
 
 h2.item {
   text-align: center;
-  color: $secundary;
+  color: var(--secundary);
   font-size: 1.8rem;
 }
 

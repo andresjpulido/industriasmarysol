@@ -1,66 +1,57 @@
-@import "../../styles/variables.scss";
+ 
+header {
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
-footer {
-    background-color: $secundary;
-    color: $text-secundary;
-    font-size: .8rem;
+.header-title {
     padding: 1rem;
+    color: var(--secundary);
+    font-size: 3rem;
+    font-weight: bolder;
+}
+ 
+.header-contact {
+    padding: 1rem;
+    color: var(--secundary);
+    font-size: 1rem;
 }
 
-footer > p {
-    text-align: center;
+.header-contact-h1 {
+    color: var(--secundary);
+    font-size: 1.3rem;
 }
 
-footer > ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    
+.header-contact-h2 {
+    color: var(--text-secundary);
+    font-size: .8rem;
 }
-
-footer > hr {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-footer > ul > li {
-    flex: 1 1 30rem;
-    margin: .5rem; 
-    display: flex;
-    align-items: center;
-}
-
-footer .footer-icons{
-    color: $primary;
-    background-color:  $secundary;
-    font-size: 2rem;
-     
-}
-
-footer .footer-text {  
-    padding-left: 1rem;
-}
-
-
-
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
      
+    header{
+        display: none;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-     
+    
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-     
+    header{
+        display: none;
+    }
 }
 
 /* iPads (portrait and landscape) ----------- */

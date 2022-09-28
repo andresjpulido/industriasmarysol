@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import './products.scss'
+import './products.css'
 
 export default function Products() {
 

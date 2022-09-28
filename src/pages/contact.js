@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withTranslation } from 'react-i18next';
 import I18nInstance from '../component/i18n';
-import './contact.scss'
+import './contact.css'
 
 class Contact extends Component {
     render() {

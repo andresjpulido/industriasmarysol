@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import { useTranslation } from 'react-i18next';
-import './nav.scss'
+import './nav.css'
 import icon from '../../assets/images/menu-icon.png'
 import icon_closed from '../../assets/images/menu-icon-close.png'
 import { useHistory } from "react-router-dom";

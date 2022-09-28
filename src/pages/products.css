@@ -1,65 +1,81 @@
-@import "../../styles/variables.scss";
-
-header {
-    background-color: $bg-primary;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.header-title {
-    padding: 1rem;
-    color: $secundary;
-    font-size: 3rem;
-    font-weight: bolder;
-}
  
-.header-contact {
-    padding: 1rem;
-    color: $secundary;
-    font-size: 1rem;
+.cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.header-contact-h1 {
-    color: $secundary;
-    font-size: 1.3rem;
+.card {
+    flex: 1 1 10rem;
+    margin: .5rem;
+    border: 1px var(--text-secundary )solid;
+    background-color: var(--text-primary);
 }
 
-.header-contact-h2 {
-    color: $text-secundary;
-    font-size: .8rem;
+.card-img {
+    width: 100%;
+    object-fit: cover;
 }
+
+.card-text {
+    color:#434547;
+}
+  
+.card-header {
+    background-color: #57AACE;
+}
+
+.card-group{
+    width: 70%;
+}
+
+.card-title-solid{
+    color: white;
+}
+
+.card-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-body-solid{
+    background-color: #0049A7;
+    background-color: #57AACE;
+}
+
+h3.card-text{
+    color: #434547;
+}
+
+
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
      
-    header{
-        display: none;
-    }
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
-    
+     
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
-    header{
-        display: none;
-    }
+     
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-     
+    .card {
+        flex: 1 1 30rem;
+    }
 }
 
 /* iPads (landscape) ----------- */
@@ -67,7 +83,9 @@ and (max-device-width : 1024px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
-/* Styles */
+    .card {
+        flex: 1 1 30rem;
+    }
 }
 
 /* iPads (portrait) ----------- */
@@ -75,13 +93,17 @@ and (orientation : landscape) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-     
+    .card {
+        flex: 1 1 30rem;
+    }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-     
+    .card {
+        flex: 1 1 30rem;
+    }
 }
 
 /* Large screens ----------- */

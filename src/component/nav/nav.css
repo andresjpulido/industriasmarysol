@@ -1,7 +1,6 @@
-@import "../../styles/variables.scss";
-
+ 
 nav {
-    background-color: $bg-terteary;
+    background-color: var(--bg-terteary);
     display: flex;
     justify-content: space-between;    
     width: 100%;
@@ -12,7 +11,7 @@ nav > ul {
 }
 
 nav > ul > li {
-    color: $text-primary;
+    color: var(--text-primary);
     display: inline-block;
     font-size: 1rem;
     padding-top: .9rem;
@@ -26,7 +25,7 @@ nav > ul  {
 }
 
 nav > ul > li {
-    color: $text-primary;
+    color: var(--text-primary);
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: .9rem;
@@ -46,7 +45,7 @@ nav > ul > li:hover {
 }
 
 .menu-mobile button{
-    background-color: $bg-terteary;
+    background-color: var(--bg-terteary);
     border: 0px;
 }
 
@@ -73,7 +72,7 @@ and (max-device-width : 767px) {
     }
 
     .menu-mobile-title {        
-        color: $text-primary;
+        color: var(--text-primary);
         display: inline-block;
         font-weight: bolder;
         margin: auto;
@@ -99,14 +98,14 @@ and (max-device-width : 767px) {
     .dropdown-child {
         display: none;   
         position: absolute;
-        background-color: $bg-terteary;
+        background-color: var(--bg-terteary);
         width: 100%; 
     }
     
     .dropdown-child li {
         text-decoration: none;
         display: block;
-        border-bottom: $secundary .1rem solid;
+        border-bottom: var(--secundary .1rem solid);
     }
     
     .active{

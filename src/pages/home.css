@@ -1,0 +1,167 @@
+.team {
+  background-image: url("/img/team.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.team-text {
+  color: blanchedalmond;
+  position: absolute;
+  top: clamp(25%, 40%, 50%);
+  left: clamp(1%, 10%, 25%);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.environment {
+  background-image: url("/img/environment.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon-lines {
+  font-size: 2.9rem;
+  margin-right: 1rem;
+}
+
+.team-environment {
+  color: var(--text-primary);
+  position: absolute;
+  top: clamp(25%, 40%, 50%);
+  left: clamp(1%, 10%, 25%);
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-right: 10%; 
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px gray;
+  text-align: right;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-group {
+  flex: 1 1 30%;
+  margin: 1rem;
+  background-image: url("/img/team.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.group-wrap {
+  flex: 1 1 30%;
+  margin-top: 1rem;
+  position: relative;
+  color: var(--primary-dark);
+}
+
+.group-wrap-home:before {
+  background-image: url("/img/home.jpg");
+  opacity: 0.2;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+.group-wrap-car:before {
+  background-image: url("/img/car.jpg");
+  opacity: 0.2;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+.list-group-header {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.list-group-title {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.list-group-item {
+  padding: 0.8rem;
+
+  font-size: 1rem;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .team {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+  }
+
+  .environment {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 100%;
+  }
+
+  .group-wrap {
+    flex: 1 1 100%;
+    margin: 0rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+}

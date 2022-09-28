@@ -16,8 +16,7 @@ i18n
       transKeepBasicHtmlNodesFor: ["br", "strong", "i"],  
       useSuspense: false  
     },
-    backend: {
-      // for all available options read the backend's repository readme file
+    backend: { 
       loadPath: '/locales/{{lng}}/translation.json'
     }  
   });  

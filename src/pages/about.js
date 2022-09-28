@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
-import './about.scss'
+import './about.css'
 
 export default function About() {
 

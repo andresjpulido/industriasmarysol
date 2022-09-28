@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, HashRouter, Route} from 'react-router-dom';
 import { I18nextProvider } from "react-i18next";
 import i18n from './component/i18n';
 import Home from './pages/home';
@@ -10,14 +10,15 @@ import Header from './component/header';
 import Footer from './component/footer';
 import Nav from './component/nav';
 
-import './App.scss';
+import './App.css'; 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+         <HashRouter hashType="noslash">
         <I18nextProvider i18n={i18n}>
-          <BrowserRouter>
+         
             <div>
               <Header />
               <Nav />
@@ -52,9 +53,10 @@ class App extends Component {
 
               </Switch>
             </div>
-          </BrowserRouter>
+         
           <Footer />
         </I18nextProvider>
+        </HashRouter>
       </div>
     );
   }

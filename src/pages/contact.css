@@ -1,5 +1,4 @@
-@import "../styles/variables.scss";
-
+ 
 #contact {
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +21,7 @@
 }
 
 .form-control {
-    border: 1px $primary solid;
+    border: 1px var(--primary) solid;
     font-size: 1rem;
     font-weight: normal;
     padding: .5rem;
@@ -30,8 +29,8 @@
 }
 
 .btn-primary {
-    background-color: $primary;
-    border: 1px $primary solid;
+    background-color: var(--primary);
+    border: 1px var(--primary) solid;
     border-radius: .3rem;
     color: white;
     font-size: 1rem;

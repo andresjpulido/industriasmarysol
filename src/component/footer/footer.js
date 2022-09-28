@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './footer.scss'
+import './footer.css'
 
 export default function Footer() {
 
@@ -40,7 +40,7 @@ export default function Footer() {
             <hr />
 
             <p>
-                &copy; 2021 Industrias Mar y sol, Ecuador
+                &copy; 2022 Industrias Mar y sol, Ecuador
             </p>
 
         </footer>

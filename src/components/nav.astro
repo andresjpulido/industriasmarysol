@@ -7,14 +7,14 @@ import HeaderLink from "./HeaderLink.astro";
 
   const navLinks = document.querySelectorAll(".button");
   navLinks?.forEach((link) => {
-    if (link.href === currentUrlLink) {
+    if (link instanceof HTMLAnchorElement && link.href === currentUrlLink) {
       link.classList.add("active");
     }
   });
  
   const mobileLinks = document.querySelectorAll(".mobileLink");
   mobileLinks?.forEach((link) => {
-    if (link.href === currentUrlLink) {
+    if (link instanceof HTMLAnchorElement && link.href === currentUrlLink) {
       link.classList.add("activeMobile");
     }
   });

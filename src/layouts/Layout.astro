@@ -1,0 +1,81 @@
+---
+import Header from "../components/header.astro";
+import Footer from "../components/footer.astro";
+import Nav from "../components/nav1.astro";
+import "../base.css";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Industrias Mar y Sol S.A. fabrica productos de limpieza de excelente calidad y precios competitivos que benefician la salud y el bienestar de nuestros consumidores."
+    />
+    <meta property="og:title" content="Industrias Mar y Sol S.A." />
+    <meta
+      property="og:description"
+      content="Industrias Mar y Sol S.A. fabrica productos de limpieza de excelente calidad y precios competitivos que benefician la salud y el bienestar de nuestros consumidores."
+    />
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:image:alt" content="Industrias Mar y Sol S.A." />
+    <meta name="theme-color" content="blue" />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    
+  </head>
+  <body>
+    <Header />
+
+    <slot />
+    <Footer />
+  </body>
+</html>
+<style is:global>
+  :root {
+  }
+
+  html {
+    font-family: system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul:not([data-attr="nav"]),
+  not(footer),
+  img,
+  form {
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 50%;
+  }
+
+
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+</style>

@@ -1,0 +1,129 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+---
+
+<script>
+  const currentUrlLink = window.location.href;
+
+  const navLinks = document.querySelectorAll(".button");
+  navLinks?.forEach((link) => {
+    if (link.href === currentUrlLink) {
+      link.classList.add("active");
+    }
+  });
+ 
+  const mobileLinks = document.querySelectorAll(".mobileLink");
+  mobileLinks?.forEach((link) => {
+    if (link.href === currentUrlLink) {
+      link.classList.add("activeMobile");
+    }
+  });
+</script>
+<Fragment> 
+  <nav class="hidden md:inline">
+    <section class="text-text-bold flex flex-row items-center justify-between">
+      <ul class="unset flex gap-4 [&>li]:p-0 justify-end">
+        <li>
+          <HeaderLink href="/industriasmarysol" class="button text-ten">Inicio</HeaderLink>
+        </li>
+        <li>
+          <HeaderLink href="/industriasmarysol/about" class="button text-ten">Compañia</HeaderLink
+          >
+        </li>
+        <li>
+          <HeaderLink href="/industriasmarysol/products" class="button text-ten"
+            >Productos</HeaderLink
+          >
+        </li>
+        <li>
+          <HeaderLink href="/industriasmarysol/contact" class="button text-ten"
+            >Contacto</HeaderLink
+          >
+        </li>
+      </ul>
+    </section>
+  </nav>
+  <nav class="md:hidden">
+    <button id="mobile-menu-open">
+      <i class="fa-solid fa-bars" aria-hidden="true" title="Open mobile menu"
+      ></i>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        class="w-6 h-6 fill-ten"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <section
+      id="mobile-menu"
+      class="hide-menu fixed top-0 left-0 z-10 w-full h-full transition-transform bg-ten border-primary-blue"
+    >
+      <div class="w-[75%] h-full drop-shadow-2xl">
+        <button id="mobile-menu-close" class="px-6 h-[5rem] text-lg xml-[1px]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="w-6 h-6 fill-three"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <ul
+          class="unset flex flex-col font-semibold text-three gap-4 [&>li]:p-0 px-6"
+        >
+          <li><HeaderLink href="/industriasmarysol" class="mobileLink">Inicio</HeaderLink></li>
+          <li>
+            <HeaderLink href="/industriasmarysol/about" class="mobileLink">Compañia</HeaderLink>
+          </li>
+          <li>
+            <HeaderLink href="/industriasmarysol/products" class="mobileLink"
+              >Productos</HeaderLink>
+          </li>
+          <li>
+            <HeaderLink href="/industriasmarysol/contact" class="mobileLink">Contacto</HeaderLink>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </nav>
+</Fragment>
+
+<script>
+  // @ts-nocheck
+  document.querySelector("#mobile-menu-open").addEventListener("click", () => {
+    const menuElem = document.querySelector("#mobile-menu");
+    menuElem.classList.remove("hide-menu");
+    menuElem.classList.add("show-menu");
+    document.body.style.overflow = "hidden";
+  });
+
+  document.querySelector("#mobile-menu-close").addEventListener("click", () => {
+    const menuElem = document.querySelector("#mobile-menu");
+    menuElem.classList.remove("show-menu");
+    menuElem.classList.add("hide-menu");
+    document.body.style.overflow = "auto";
+  });
+</script>
+
+<style>
+  .hide-menu {
+    transform: translateX(-100%);
+  }
+  .show-menu {
+    transform: translateX(0%);
+  }
+  .active {
+    font-weight: bold;
+  }
+  .activeMobile {
+    font-weight: bolder;
+    color: white;
+  }
+</style>

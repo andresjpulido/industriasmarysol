@@ -36,7 +36,7 @@ export default {
       ],
     },
     backgroundImage: {
-      categorias: "url('/industriasmarysol/images/wave-4-bottom.svg')",
+      categorias: "url('/images/wave-4-bottom.svg')",
     },
   },
 

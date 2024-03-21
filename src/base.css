@@ -1,16 +1,16 @@
 @font-face {
   font-family: "montserratblack";
-  src: url("/industriasmarysol/fonts/Montserrat-Black.ttf");
+  src: url("/fonts/Montserrat-Black.ttf");
 }
 
 @font-face {
   font-family: "montserratbold";
-  src: url("/industriasmarysol/fonts/Montserrat-Bold.ttf");
+  src: url("/fonts/Montserrat-Bold.ttf");
 }
 
 @font-face {
   font-family: "montserratlightitalic";
-  src: url("/industriasmarysol/fonts/Montserrat-LightItalic.ttf");
+  src: url("/fonts/Montserrat-LightItalic.ttf");
 }
 
 @tailwind base;

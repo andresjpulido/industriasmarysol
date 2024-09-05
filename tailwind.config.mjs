@@ -8,11 +8,11 @@ export default {
       two: "#656E74",
       three: "#E1EEF4",
       four: "#88BFCD",
-      five: "#E9C37D",
-      six: "#5EA3B5",
+      five: "#F7CF46",
+      six: "#FFF",
       seven: "#f64d52",
-      eight: "#102e46", //dark bg
-      nine: "#a7b9c3", //clear fg
+      eight: "#2E6CB1",  
+      nine: "#a7b9c3",
       ten: "#0b79a7",
     },
     fontFamily: {

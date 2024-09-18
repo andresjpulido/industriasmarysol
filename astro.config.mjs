@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: false }), sitemap({
     filter: (page) =>
-      page !== "https://andresjpulido.github.io/palette/" 
+      page !== "https://industriasmarysol.com/palette/" 
   })],
   i18n: {
     defaultLocale: "es",

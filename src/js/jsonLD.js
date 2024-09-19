@@ -26,16 +26,14 @@ export default function jsonLDGenerator({ type, post, url }) {
   return `<script type="application/ld+json">
       {
       "@context": "https://schema.org/",
-      "@type": "Person",
+      "@type": "Organization",
       "name": "${siteData.title}",
       "url": "${import.meta.env.SITE}",
-      "image":"${siteData.image.src}",
-      "workLocation":"${siteData.workLocation}",
+      "image":"${siteData.image.src}", 
       "description": "${siteData.description}",
-      "knowsAbout": "${siteData.knowsAbout}",
-      "jobTitle": "${siteData.jobTitle}",
-      "knowsLanguage": "${siteData.knowsLanguage}",
-      "hasCredential": "${siteData.hasCredential}"
+      "knowsAbout": "${siteData.knowsAbout}" 
       }
     </script>`;
 }
+
+ 
